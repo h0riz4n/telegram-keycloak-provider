@@ -5,6 +5,8 @@ import org.keycloak.models.IdentityProviderModel;
 
 public class TelegramIdentityProviderConfig extends OAuth2IdentityProviderConfig {
 
+    public TelegramIdentityProviderConfig() { }
+
     public TelegramIdentityProviderConfig(IdentityProviderModel model) {
         super(model);
     }

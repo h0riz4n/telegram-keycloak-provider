@@ -15,7 +15,6 @@ public class TelegramIdentityProvider extends AbstractIdentityProvider<TelegramI
 
     @Override
     public Response retrieveToken(KeycloakSession session, FederatedIdentityModel identity) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'retrieveToken'");
+        throw new UnsupportedOperationException("Telegram do not provide user tokens");
     }
 }
